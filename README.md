@@ -20,6 +20,10 @@ npx nx generate @nrwl/angular:lib data-models
 
 nx generate @nrwl/angular:service services/auth/auth --project=auth
 
+npm install @angular/material @angular/cdk @angular/flex-layout --save
+
+npx nx generate @nrwl/angular:lib material
+
  ## Components Presentational 
 
 - UI presentation look and feel 
