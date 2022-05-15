@@ -12,6 +12,12 @@ nrwl is the company who created NX (Narwhal extensions)
 
  npx nx generate @nrwl/angular:lib auth --routing
 
+ npx nx generate @nrwl/angular:component containers/login --project=auth
+
+  npx nx generate @nrwl/angular:component components/login-form --project=auth
+
+npx nx generate @nrwl/angular:lib data-models
+
  ## Components Presentational 
 
 - UI presentation look and feel 
