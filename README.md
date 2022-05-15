@@ -24,6 +24,11 @@ npm install @angular/material @angular/cdk @angular/flex-layout --save
 
 npx nx generate @nrwl/angular:lib material
 
+npx nx generate @nrwl/angular:lib layout
+
+npx nx generate @nrwl/angular:component containers/layout --project=layout
+
+
  ## Components Presentational 
 
 - UI presentation look and feel 

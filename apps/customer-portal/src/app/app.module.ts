@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { authRoutes } from '@demo-app/auth';
+import { LayoutModule } from '@demo-app/layout';
 
 import { AppComponent } from './app.component';
 
@@ -17,6 +18,7 @@ const appRoutes: Route[] = [
     BrowserModule,
     HttpClientModule,
     BrowserAnimationsModule,
+    LayoutModule,
     RouterModule.forRoot(appRoutes, { initialNavigation: 'enabled' }),
   ],
   providers: [],
